@@ -1,0 +1,48 @@
+                                                /* FOOTER */
+
+footer {
+    margin-top: 20px;
+    background-color: #9ebae6;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    display: grid;    
+    grid-template-columns: auto auto;
+    grid-template-areas: "copyright redesSociales";
+    border: 1px solid black;            
+}
+
+#redesSociales {
+    justify-self: right;
+    grid-area: redesSociales;
+    margin-right: 5px;                
+}
+
+#redesSociales__titular {    
+    font-size: 18px;
+    margin: 0px;
+    text-align: right;
+}
+
+#redesSociales p {
+    margin-bottom: 0px;        
+}
+
+#foto-facebook, #foto-instagram {
+    width: 30px;
+    height: 30px;
+}
+
+div #infoEmpresa, div #copyright {
+    margin: 0px;
+}
+
+#infoEmpresa {
+    font-style: italic;
+}
+
+#copyright {    
+    font-weight: bold;
+    grid-area: copyright;
+    align-self: end;
+    margin-left: 5px;            
+}
