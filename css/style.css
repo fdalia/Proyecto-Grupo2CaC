@@ -2,11 +2,9 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-  }
+body {    
+  color: #5a5a5a;
+}
   
   
   /* CUSTOMIZE THE CAROUSEL
@@ -80,10 +78,6 @@ footer {
     font-size: 18px;
     margin: 0px;
     text-align: right;
-}
-
-#redesSociales p {
-    margin-bottom: 0px;        
 }
 
 #foto-facebook, #foto-instagram {
