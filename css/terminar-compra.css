@@ -1,0 +1,26 @@
+#bloqueTerminarCompra {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 30px 50px 0px 30px;
+    padding: 30px;
+}
+
+#bloqueTerminarCompra h3 {
+    margin-bottom: 20px;
+}
+
+.producto-seleccionado {
+    margin: 20px 0px;
+}
+
+#bloqueDescuento {
+    margin-top: 80px;
+}
+
+#bloqueTerminarCompra button {
+    float: right;
+}
+
+.borde {
+    border: 1px solid black;
+}
