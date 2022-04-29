@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: rgb(243 242 234); 
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    font-family: 'Raleway';
+        font-family: Calibri, Helvetica, sans-serif;  
 }
 
 .payment-title {

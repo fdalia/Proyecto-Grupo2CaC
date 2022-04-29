@@ -1,3 +1,9 @@
+Body {  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color: rgb(243 242 234);  
+  }  
+
+
 #bloqueTerminarCompra {
     border: 1px solid black;
     border-radius: 20px;
