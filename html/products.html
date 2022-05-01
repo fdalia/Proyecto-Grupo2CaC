@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <!-- Onwer CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/script.js"></script>
+
+    <link rel="stylesheet" href="../css/estiloProductos.css" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">Logo</a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav">
+                <a href="products.html" class="nav-item nav-link">Productos</a>
+                <div class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >Categorías</a
+                  >
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">SmartPhone</a>
+                    <a href="#" class="dropdown-item">Notebook</a>
+                    <a href="#" class="dropdown-item">Accesorios</a>
+                  </div>
+                </div>
+              </div>
+              <div class="navbar-nav ms-auto">
+                <a href="#" class="nav-item nav-link">Mis compras</a>
+                <a href="#" class="nav-item nav-link">Perfil</a>
+                <button type="submit" class="btn btn-dark">
+                  <span class="bi-basket"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <body>
+      <input type="radio" id="Todo" name="categories" value="Todo" checked>
+      <input type="radio" id="Celulares" name="categories" value="Celulares">
+      <input type="radio" id="Notebooks" name="categories" value="Notebooks">
+      <input type="radio" id="Accesorios" name="categories" value="Accesorios">
+      <input type="radio" id="Apple" name="categories" value="Apple">
+      <input type="radio" id="Samsung" name="categories" value="Samsung">
+      <input type="radio" id="Xiaomi" name="categories" value="Xiaomi">
+
+      <ol class="filters">
+        <li>
+          <label for="Todo">Todo</label>
+        </li>
+        <li>
+          <label for="Celulares">Celulares</label>
+        </li>
+        <li>
+          <label for="Notebooks">Notebooks</label>
+        </li>
+        <li>
+          <label for="Accesorios">Accesorios</label>
+        </li>
+        <li>
+          <label for="Apple">Apple</label>
+        </li>
+        <li>
+          <label for="Samsung">Samsung</label>
+        </li>
+        <li>
+          <label for="Xiaomi">Xiaomi</label>
+        </li>
+      </ol>
+
+            <ol class="posts">
+              <li class="post" data-category="Accesorios Apple">
+
+                <a href="" target="_blank">
+                  <img  class="product-img" src="../images/applew.jpg" alt="">
+                </a>
+                <h2 class="post-title">
+                  <a href="" target="_blank">Apple Whatch</a>
+                </h2>
+
+
+              </li>
+              <li class="post" data-category="Accesorios Samsung" >
+
+                <a href="" target="_blank">
+                  <img class="product-img" src="../images/Auriculars samsung.jpg" alt="">
+                </a>
+                <h2 class="post-title">
+                  <a href="" target="_blank">Auriculares Samsung</a>
+                </h2> 
+                          </li>
+              <li class="post" data-category="Apple Celulares">
+                
+                <a href="" target="_blank">
+                  <img class="product-img" src="../images/iphone13.jpg" alt="">
+                </a>
+                <h2 class="post-title">
+                  <a href="" target="_blank">iphone 13</a>
+                </h2> 
+              </li>
+              <li class="post" data-category="Apple Notebooks">
+                
+                <a href="" target="_blank">
+                  <img class="product-img" src="../images/macbook.jpg" alt="">
+                </a>
+                <h2 class="post-title">
+                  <a href="" target="_blank">Macbook</a>
+                </h2> 
+              </li>
+              <li class="post" data-category="Notebooks">
+                
+                <a href="" target="_blank">
+                  <img class="product-img" src="../images/msi.jpg" alt="">
+                </a>
+                <h2 class="post-title">
+                  <a href="" target="_blank">Notebook</a>
+                </h2> 
+              </li>
+              <li class="post" data-category="Celulares Xiaomi">
+                
+                <a href="" target="_blank">
+                  <img class="product-img" src="../images/redmi note 11.jpg" alt="">
+                </a>
+                <h2 class="post-title">
+                  <a href="" target="_blank">Redmi note 11</a>
+                </h2> 
+              </li>
+              <li class="post" data-category="Celulares Samsung">
+                
+                <a href="" target="_blank">
+                  <img class="product-img" class="product-img" src="../images/samsung.jpg" alt="">
+                </a>
+                <h2 class="post-title">
+                  <a href="" target="_blank">Samsung</a>
+                </h2> 
+              </li>
+              <li class="post" data-category="Accesorios Xiaomi">
+                
+                <a href="" target="_blank">
+                  <img class="product-img" src="../images/Xiaomi band.jpg" alt="">
+                </a>
+                <h2 class="post-title">
+                  <a href="" target="_blank">Xiaomi Band</a>
+                </h2> 
+              </li>
+            </ol>
+
+
+ 
+
+
+
+
+    <footer>
+      <div>
+        <p id="infoEmpresa">Nombre de la empresa - Dirección</p>
+        <p id="copyright">Copyright © Todos los derechos reservados - 2022</p>
+      </div>
+
+      <div id="redesSociales">
+        <span id="redesSociales__titular">Redes sociales</span>
+        <a href="https://www.facebook.com" target="_blank"
+          ><img id="foto-facebook" src="../images/facebook.jpg" alt="facebook"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img
+            id="foto-instagram"
+            src="../images/instagram.png"
+            alt="instagram"
+        /></a>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="./js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

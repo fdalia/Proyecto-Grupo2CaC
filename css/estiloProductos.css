@@ -1,0 +1,116 @@
+input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+:root {
+  --black: #1a1a1a;
+  --white: #fff;
+  --green: #49b293;
+}
+
+.filters {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.filters * {
+  display: inline-block;
+}
+
+.filters label {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.25rem;
+  border-radius: 2rem;
+  min-width: 50px;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.filters label:hover {
+  background: var(--green);
+  color: var(--white);
+}
+
+:root {
+  --black: #1a1a1a;
+  --white: #fff;
+  --green: #49b293;
+}
+
+.posts {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.posts .post {
+  background: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.product-img {
+  width: 40vh;
+}
+.posts .post-title {
+  font-size: 1.3rem;
+}
+
+.posts .post-title:hover {
+  text-decoration: underline;
+}
+
+.posts figcaption {
+  padding: 1rem;
+}
+
+.posts .post-categories {
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+}
+
+.posts .post-categories * {
+  display: inline-block;
+}
+
+.posts .post-categories li {
+  margin-bottom: 0.2rem;
+}
+
+.posts .post-categories a {
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid;
+  line-height: normal;
+  background: all 0.1s;
+}
+
+.posts .post-categories a:hover {
+  background: var(--green);
+  color: var(--white);
+}
+
+@media screen and (max-width: 900px) {
+  .posts {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .posts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+[value="Todo"]:checked ~ .posts [data-category] {
+  display: block;
+}
+
+[value="Celulares"]:checked ~ .posts .post:not([data-category~="Celulares"]),
+[value="Notebooks"]:checked ~ .posts .post:not([data-category~="Notebooks"]),
+[value="Accesorios"]:checked ~ .posts .post:not([data-category~="Accesorios"]),
+[value="Apple"]:checked ~ .posts .post:not([data-category~="Apple"]),
+[value="Samsung"]:checked ~ .posts .post:not([data-category~="Samsung"]),
+[value="Xiaomi"]:checked ~ .posts .post:not([data-category~="Xiaomi"]) {
+  display: none;
+}
