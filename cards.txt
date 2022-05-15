@@ -1,0 +1,234 @@
+   <section>
+        <div class="container py-5">
+
+          <div class="row">
+
+            <!------------------------------------------ PRIMER CARD ------------------------------------------>
+            <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+              <div class="card text-black">
+                <img
+                  src="https://images.fravega.com/f300/14f79142efcb990613f119c8068fd91b.jpg.webp"
+                  class="card-img-top"
+                  alt="Notebook HP"
+                />
+
+                <div class="card-body">
+                  <div class="text-center mt-1">
+                    <h4 class="card-title">Notebook HP Intel Core i3</h4>
+                    <h6 class="text-primary mb-1 pb-3 precio">$86.999</h6>
+                  </div>
+
+                  <div class="text-center">
+                    <div
+                      class="p-3 mx-n3 mb-4"
+                      style="background-color: #ee0d18"
+                    >
+                      <h5 class="mb-0">PROMOCIÓN</h5>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">14″</span>
+                      <span>3 cuotas sin interés de $28.999,67</span>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">
+                        <i class="fas fa-camera-retro"></i>
+                      </span>
+                      <ul class="list-unstyled mb-0">
+                        <li aria-hidden="true">—</li>
+                        <li>8 GB RAM</li>
+                        <li>Disco SSD</li>
+                        <li aria-hidden="true">—</li>
+                      </ul>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">2,1 GHz</span>
+                      <span>Windows 10 Home 64</span>
+                    </div>
+
+                    <div
+                      class="p-3 mx-n3 mb-4"
+                      style="background-color: #eff1f2"
+                    >
+                      <h5 class="mb-0">Capacidad</h5>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4 lead">
+                      <span class="mb-2">64GB</span>
+                      <span class="mb-2">256GB</span>
+                      <span style="color: transparent">0</span>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row">
+                    <button
+                      type="button"
+                      class="btn btn-primary flex-fill me-1 agregar-carrito"
+                      data-mdb-ripple-color="dark"
+                    >
+                      Agregar al carrito
+                    </button>
+                    <button type="button" class="btn btn-danger flex-fill ms-1">
+                      Comprar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!------------------------------------------ SEGUNDA CARD ------------------------------------------>
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card text-black">
+                <img
+                  src="https://images.fravega.com/f300/f54ce90f5b2387fde815d779485d310d.jpg.webp"
+                  class="card-img-top"
+                  alt="celular"
+                />
+
+                <div class="card-body">
+                  <div class="text-center mt-1">
+                    <h4 class="card-title">Galaxy Z Flip3 5G Negro</h4>
+                    <h6 class="text-primary mb-1 pb-3">$139.999</h6>
+                  </div>
+
+                  <div class="text-center">
+                    <div
+                      class="p-3 mx-n3 mb-4"
+                      style="background-color: #ee0d18"
+                    >
+                      <h5 class="mb-0">PROMOCIÓN</h5>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">6.7″</span>
+                      <span>9 cuotas sin interés de $15.555,44</span>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">
+                        <i class="fas fa-camera-retro"></i>
+                      </span>
+                      <ul class="list-unstyled mb-0">
+                        <li aria-hidden="true">—</li>
+                        <li aria-hidden="true">Memoria interna (ROM) 128 GB</li>
+                        <li>Memoria Ram 8 GB</li>
+                        <li aria-hidden="true">—</li>
+                      </ul>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">12 MP</span>
+                      <span>Cámara principal</span>
+                    </div>
+
+                    <div
+                      class="p-3 mx-n3 mb-4"
+                      style="background-color: #eff1f2"
+                    >
+                      <h5 class="mb-0">Capacidad</h5>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4 lead">
+                      <span class="mb-2">64GB</span>
+                      <span class="mb-2">128GB</span>
+                      <span>256GB</span>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row">
+                    <button
+                      type="button"
+                      class="btn btn-primary flex-fill me-1"
+                      data-mdb-ripple-color="dark"
+                    >
+                      Agregar al carrito
+                    </button>
+                    <button type="button" class="btn btn-danger flex-fill ms-1">
+                      Comprar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!------------------------------------------ TERCERA CARD ------------------------------------------>
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card text-black">
+                <img
+                  src="https://images.fravega.com/f300/d7330a9a648f72a23889d64a79b1c4ff.jpg.webp"
+                  class="card-img-top"
+                  alt="reloj"
+                />
+
+                <div class="card-body">
+                  <div class="text-center mt-1">
+                    <h4 class="card-title">Smartwatch Moto100</h4>
+                    <h6 class="text-primary mb-1 pb-3">$25.999</h6>
+                  </div>
+
+                  <div class="text-center">
+                    <div
+                      class="p-3 mx-n3 mb-4"
+                      style="background-color: #ee0d18"
+                    >
+                      <h5 class="mb-0">PROMOCIÓN</h5>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">1,3″</span>
+                      <span>3 cuotas sin interés de $8.666,33</span>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">
+                        <i class="fas fa-camera-retro"></i>
+                      </span>
+                      <ul class="list-unstyled mb-0">
+                        <li aria-hidden="true">Bluetooth</li>
+                        <li>GPS</li>
+                        <li>Resistente al agua</li>
+                        <li aria-hidden="true">—</li>
+                      </ul>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4">
+                      <span class="h1 mb-0">45 gr</span>
+                      <span>Compatibilidad Android 5.0 +</span>
+                    </div>
+
+                    <div
+                      class="p-3 mx-n3 mb-4"
+                      style="background-color: #eff1f2"
+                    >
+                      <h5 class="mb-0">Bateria</h5>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4 lead">
+                      <span class="mb-2">355 mAh</span>
+                      <span> Material Aluminio</span>
+                      <span> Modelo Moto100</span>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row">
+                    <button
+                      type="button"
+                      class="btn btn-primary flex-fill me-1"
+                      data-mdb-ripple-color="dark"
+                    >
+                      Agregar al carrito
+                    </button>
+                    <button type="button" class="btn btn-danger flex-fill ms-1">
+                      Comprar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    
