@@ -24,7 +24,31 @@ Body {
   min-width: 100%;
   height: 32rem;
 }
-   
+  /*------------------------------------------ Medios de Pago ------------------------------------------ */
+  /* Container for flexboxes */
+  .row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .medioPago {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 50px; 
+    text-align: center;
+  }
+  
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 50px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
   /*------------------------------------------ RESPONSIVE CSS ------------------------------------------ */
 
 @media (min-width: 40em) {
