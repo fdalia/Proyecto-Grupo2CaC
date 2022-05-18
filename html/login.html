@@ -18,7 +18,8 @@
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a href="index.html" class="navbar-brand">Logo</a>
+          <a href="index.html" class="navbar-brand"><img src="../images/Logo.png" alt="Logo"
+            /></a>
           <button
             type="button"
             class="navbar-toggler"
@@ -62,23 +63,74 @@
     </header>
     <main>
         <div id="Login">
-            <center> <h1> Hola! Ingrese su email </h1> </center>    
-                    <form class="login-form">
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Recuerdeme</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Continuar</button>
-                    </form> 
-         </div>       
+            <center> <h1> Ingrese sus datos de usuario </h1> </center>    
+
+            <form action="" class="login-form" id="login-form">
+              <!-- Grupo: Correo Electronico -->
+              <div class="formulario__grupo" id="grupo__correo">
+                <label for="correo" class="formulario__label"
+                  >Correo Electrónico</label
+                >
+                <div class="formulario__grupo-input">
+                  <input
+                    type="email"
+                    class="formulario__input"
+                    name="correo"
+                    id="correo"
+                    placeholder="correo@correo.com"
+                  />
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">
+                  Correo incorrecto, recuerde usar @ y terminar con .com
+                </p>
+      
+                <!-- Grupo: Contraseña -->
+                <div class="formulario__grupo" id="grupo__password">
+                  <label for="password" class="formulario__label">Contraseña</label>
+                  <div class="formulario__grupo-input">
+                    <input
+                      type="password"
+                      class="formulario__input"
+                      name="password"
+                      id="password"
+                    />
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                  </div>
+                  <p class="formulario__input-error">
+                    La contraseña tiene que ser de 4 a 12 dígitos.
+                  </p>
+                </div>
+              </div>
+      
+              <!-- Grupo: Terminos y Condiciones -->
+              <div class="formulario__grupo" id="grupo__terminos">
+                <label class="formulario__label">
+                  <input
+                    class="formulario__checkbox"
+                    type="checkbox"
+                    name="terminos"
+                    id="terminos"
+                  />
+                  Acepto los Terminos y Condiciones
+                </label>
+              </div>
+      
+              <div class="formulario__mensaje" id="formulario__mensaje">
+                <p>
+                  <i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor
+                  rellena el formulario correctamente.
+                </p>
+              </div>
+      
+              <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" class="formulario__btn">Enviar</button>
+                <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">
+                  Formulario enviado exitosamente!
+                </p>
+              </div>
+            </form>
+         </div>    
+         <script src="../js/login.js"></script>   
     </body>     
 </html>  

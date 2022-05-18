@@ -1,0 +1,34 @@
+[
+    {
+        "precio": 86999,
+        "id": 1,
+        "title": "Notebook HP Intel Core i3",
+        "cuotas": "3 cuotas sin interés de $28.999,67",
+        "imagen": "https://images.fravega.com/f300/14f79142efcb990613f119c8068fd91b.jpg.webp",
+        "descripcion": "8 GB RAM, DISCO SSD, Windows 10 home 64, Capacidad 64gb"
+      },
+      {
+        "precio": 139999,
+        "id": 2,
+        "title": "Galaxy Z Flip3 5G Negro",
+        "cuotas": "9 cuotas sin interés de $15.555,44",
+        "imagen": "https://images.fravega.com/f300/f54ce90f5b2387fde815d779485d310d.jpg.webp",
+        "descripcion": "Memoria interna (ROM) 128 GB, Capacidad 64gb, Camara 12MP"
+      },
+      {
+          "precio": 25999,
+          "id": 3,
+          "title": "Smartwatch Moto100",
+          "cuotas": "3 cuotas sin interés de $8.666,33",
+          "imagen": "https://images.fravega.com/f300/d7330a9a648f72a23889d64a79b1c4ff.jpg.webp"          ,
+          "descripcion": "Resistente al agua, Bluetooth, pesa 45 gr, Compatibilidad Android 5.0+"        
+      },
+      {
+        "precio": 92999,
+        "id": 4,
+        "title": "Smart TV Samsumg 50'",
+        "cuotas":"12 cuotas sin interés de $7749",
+        "imagen": "https://images.fravega.com/f300/d7ca24bf5639a7db78c31aa9fa963be8.jpg.webp" ,
+        "descripcion": "Pantalla plana, Youtube, Netflix, 3 entradas HDMI, 1 entrada USB" 
+      }
+]
