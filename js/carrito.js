@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 cards.addEventListener('click', e => { addCarrito(e) });
 items.addEventListener('click', e => { btnAumentarDisminuir(e) })
+items.addEventListener('click', e => { borrarproducto(e) })
 
 // Traer productos
 const fetchData = async () => {
@@ -87,6 +88,7 @@ const pintarCarrito = () => {
         //botones
         templateCarrito.querySelector('.btn-info').dataset.id = producto.id
         templateCarrito.querySelector('.btn-danger').dataset.id = producto.id
+        templateCarrito.querySelector('.btn-danger1').dataset.id = producto.id
 
         const clone = templateCarrito.cloneNode(true)
         fragment.appendChild(clone)
@@ -151,3 +153,18 @@ const btnAumentarDisminuir = e => {
     e.stopPropagation()
 }
 
+//boton borrar un producto 
+
+const borrarproducto = (e) => {         
+
+    if (e.target.classList.contains('btn-danger1')   ) {
+        
+        delete carrito[e.target.dataset.id];
+    } else {
+    const producto = carrito[e.target.dataset.id];
+      carrito[e.target.dataset.id] = { ...producto };
+    }
+    pintarCarrito();
+    e.stopPropagation();
+    
+  }
