@@ -54,6 +54,7 @@ input[type="radio"] {
 }
 .posts .post-title {
   font-size: 1.3rem;
+  text-align: center;
 }
 
 .posts .post-title:hover {
