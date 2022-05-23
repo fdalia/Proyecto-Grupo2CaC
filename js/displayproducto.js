@@ -20,26 +20,29 @@ cards.addEventListener('click', e => { addCarrito(e) });
 
 // Traer productos
 const fetchData = async () => {
-    const res = await fetch('./productosindex.json');
+    const res = await fetch('../js/productosindex.json');
     const data = await res.json()
     // console.log(data)
     pintarCards(data)
 }
 
+
 // Pintar productos
 const pintarCards = data => {
     data.forEach(item => {
-        templateCard.querySelector('h5').textContent = item.title
-        templateCard.querySelector('p').textContent = item.precio
+        templateCard.querySelector('h4 span').textContent = item.title
+        templateCard.querySelector('p span').textContent = item.precio
+		templateCard.querySelector('h6 span').textContent = item.cuotas
+        templateCard.querySelector('h8 span').textContent = item.descripcion
+
         templateCard.querySelector('button').dataset.id = item.id
-        templateCard.querySelector('img').setAttribute("src", item.thumbnailUrl)
+        templateCard.querySelector('img').setAttribute("src", item.imagen)
 
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
     })
     cards.appendChild(fragment)
 }
-
 // Agregar al carrito
 const addCarrito = e => {
     if (e.target.classList.contains('btn-dark')) {
@@ -52,11 +55,12 @@ const addCarrito = e => {
 
 }
 
+
 const setCarrito = item => {
     // console.log(item)
     const producto = {
-        title: item.querySelector('h5').textContent,
-        precio: item.querySelector('p').textContent,
+        title: item.querySelector('h4').textContent,
+        precio: item.querySelector('p span').textContent,
         id: item.querySelector('button').dataset.id,
         cantidad: 1
     }
