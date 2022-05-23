@@ -1,3 +1,4 @@
+
 Body {  
     font-family: Calibri, Helvetica, sans-serif;  
     background-color: rgb(243 242 234);  
@@ -23,10 +24,10 @@ Body {
     margin-top: 80px;
 }
 
-#bloqueTerminarCompra button {
-    float: right;
-}
-
 .borde {
     border: 1px solid black;
+}
+
+#bloqueTerminarCompra .btn-primary {
+    float: right;
 }
