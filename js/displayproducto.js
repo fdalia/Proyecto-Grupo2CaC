@@ -72,3 +72,26 @@ const setCarrito = item => {
     carrito[producto.id] = { ...producto }
     
 }
+
+// boton de aviso con libreria toastr 
+$(document).ready(function(){
+    $(".btn-dark").click(function(){
+      toastr["success"]( "Producto agregado Correctamente!")
+      console.log("funciono verde")
+    });
+
+  toastr.options = {	
+    "positionClass": "toast-top-right",	  
+    "timeOut": "1500",	  
+  }
+})
+$(document).ready(function(){
+  $("#vaciar-carrito").click(function(){
+    toastr["error"]("", "No Jodas! Volve a llenar el carrito!")
+  });
+
+toastr.options = {  
+  "positionClass": "toast-top-right",	
+  "timeOut": "1500",	
+}
+})
