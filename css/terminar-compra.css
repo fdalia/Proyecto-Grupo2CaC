@@ -31,3 +31,61 @@ Body {
 #bloqueTerminarCompra .btn-primary {
     float: right;
 }
+
+#info-pago {
+    margin-top: 10px;
+}
+
+#rapipago {
+    text-decoration: none;    
+}
+
+#stack {
+    display: flex;
+    flex-direction: column;
+    width: 25%;    
+}
+
+#info-pago #stack button {
+    margin-top: 10px;
+}
+
+#title-finishbuy {
+    font-size: 25px;
+}
+
+#comprobante {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.field-container {
+    margin-bottom: 15px;
+}
+
+#expirationdate {
+    width: 50px;
+}
+
+#securitycode::placeholder {
+    font-style: italic;
+}
+
+#name {
+    width: 300px;
+}
+
+#name::placeholder {
+    font-style: italic;
+}
+
+#img-3digits {
+    width: 60px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+#usdt {
+    height: 25px;
+    width: 25px;
+}
