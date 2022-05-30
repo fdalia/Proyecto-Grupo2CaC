@@ -15,7 +15,6 @@ const validarFormulario = (e) => {
   switch (e.target.name) {
     case "password":
       validarCampo(expresiones.password, e.target, "password");
-      validarPassword2();
       break;
 
     case "correo":
