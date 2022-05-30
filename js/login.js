@@ -1,5 +1,5 @@
 
-/* Por el momento login sencillo.
+//Por el momento login sencillo
 
 const formulario = document.getElementById("login-form");
 const inputs = document.querySelectorAll("#login-form input");
@@ -18,7 +18,6 @@ const validarFormulario = (e) => {
   switch (e.target.name) {
     case "password":
       validarCampo(expresiones.password, e.target, "password");
-      validarPassword2();
       break;
 
     case "correo":
@@ -84,7 +83,7 @@ formulario.addEventListener("submit", (e) => {
       document
         .getElementById("formulario__mensaje-exito")
         .classList.remove("formulario__mensaje-exito-activo");
-    }, 5000);
+    }, 100000);
 
     document
       .querySelectorAll(".formulario__grupo-correcto")
@@ -97,16 +96,6 @@ formulario.addEventListener("submit", (e) => {
       .classList.add("formulario__mensaje-activo");
   }
 });
-*/
 
-function validar () {
-  var email = document.getElementById("correo").value;
-  var pass = document.getElementById("password").value;
-  if (email == "mail@mail.com" && pass == "1234")
-    {
-      alert ("eMail & Password Correctos");
-    } else {
-      alert ("eMail & Password Erronea");
-    }
-}
+
 
