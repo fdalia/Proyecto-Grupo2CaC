@@ -1,0 +1,74 @@
+[
+    {
+        "category": "Apple",
+        "precio": 6000,
+        "id": 5,
+        "title": "Apple Whatch",
+        "cuotas":"3 cuotas de $2000",
+        "imagen": "../images/applew.jpg" ,
+        "descripcion": "lorem ipsum" 
+      },
+      {
+        "category": "Samsung",
+        "precio": 8000,
+        "id": 6,
+        "title": "Auricular Samsung",
+        "cuotas":"8 cuotas de $2000",
+        "imagen": "../images/Auriculars samsung.jpg" ,
+        "descripcion": "lorem ipsum" 
+      },
+      {
+        "category": "Apple",
+        "precio": 15000,
+        "id": 7,
+        "title": "Iphone 13",
+        "cuotas":"5 cuotas de 3000",
+        "imagen": "../images/iphone13.jpg" ,
+        "descripcion": "lorem ipsum" 
+      },
+      {
+        "category": "Notebook",
+        "precio": 25000,
+        "id": 8,
+        "title": "Macbook",
+        "cuotas":"10 cuotas de 2500",
+        "imagen": "../images/macbook.jpg" ,
+        "descripcion": "lorem ipsum" 
+      },
+      {
+        "category": "Notebook",
+        "precio": 18000,
+        "id": 9,
+        "title": "Notebook",
+        "cuotas":"6 cuotas de 3000",
+        "imagen": "../images/msi.jpg" ,
+        "descripcion": "lorem ipsum" 
+      },
+      {
+        "category": "Xioami",
+        "precio": 12000,
+        "id": 10,
+        "title": "Redmi note ",
+        "cuotas":"6 cuotas de 2000",
+        "imagen": "../images/redmi note 11.jpg" ,
+        "descripcion": "lorem ipsum" 
+      },
+      {
+        "category": "Samsung",
+        "precio": 30000,
+        "id": 11,
+        "title": "Samsung",
+        "cuotas":"10 cuotas de 3000",
+        "imagen": "../images/samsung.jpg" ,
+        "descripcion": "lorem ipsum" 
+      },
+      {
+        "category": "Xioami",
+        "precio": 12000,
+        "id": 12,
+        "title": "Xiaomi Band",
+        "cuotas":"6 cuotas de 2000",
+        "imagen": "../images/Xiaomi band.jpg" ,
+        "descripcion": "lorem ipsum" 
+      }
+]

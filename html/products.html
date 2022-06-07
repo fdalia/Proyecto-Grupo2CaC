@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio</title>
+    <title>Tienda G2</title>
     <!-- Onwer CSS -->
     <link rel="stylesheet" href="../css/style.css" />    
     <!-- Bootstrap CSS -->
@@ -19,8 +19,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <script src="../js/jquery-3.2.1.js"></script>
-    <script src="../js/script.js"></script>
+    <!-- <script src="../js/jquery-3.2.1.js"></script> -->
+    <!-- <script src="../js/script.js"></script> -->
 
     <link rel="stylesheet" href="../css/estiloProductos.css" />
   </head>
@@ -71,6 +71,8 @@
                   >
 
                     <span class="bi-basket"></span>
+                    <span class="badge badge-light"></span>
+
                   </a>
                 </button>
               </div>
@@ -80,185 +82,56 @@
       </div>
     </header>
     <body>
-      <input type="radio" id="Todo" name="categories" value="Todo" checked>
+      <!-- <input type="radio" id="Todo" name="categories" value="Todo" checked>
       <input type="radio" id="Celulares" name="categories" value="Celulares">
       <input type="radio" id="Notebooks" name="categories" value="Notebooks">
       <input type="radio" id="Accesorios" name="categories" value="Accesorios">
       <input type="radio" id="Apple" name="categories" value="Apple">
       <input type="radio" id="Samsung" name="categories" value="Samsung">
-      <input type="radio" id="Xiaomi" name="categories" value="Xiaomi">
+      <input type="radio" id="Xiaomi" name="categories" value="Xiaomi"> -->
 
-      <ol class="filters">
-        <li>
-          <label for="Todo">Todo</label>
-        </li>
-        <li>
-          <label for="Celulares">Celulares</label>
-        </li>
-        <li>
-          <label for="Notebooks">Notebooks</label>
-        </li>
-        <li>
-          <label for="Accesorios">Accesorios</label>
-        </li>
-        <li>
-          <label for="Apple">Apple</label>
-        </li>
-        <li>
-          <label for="Samsung">Samsung</label>
-        </li>
-        <li>
-          <label for="Xiaomi">Xiaomi</label>
-        </li>
-      </ol>
+     <!-- <div class="category_list btn-group">
+      <a href="#" class="category_item btn btn-info"" category="all">Todo</a>
+      <a href="#" class="category_item btn btn-info" category="Apple">Apple</a>
+      <a href="#" class="category_item btn btn-info" category="Samsung">Samsung</a>
+      <a href="#" class="category_item btn btn-info" category="Notebook">Notebook</a>
+      <a href="#" class="category_item btn btn-info" category="Xioami">Xioami</a>
+    </div> -->
+    <BR></BR>
+    <!-- <div class="btn-group category_list container" role="group" aria-label="Basic radio toggle button group"> -->
+    <div class="container " role="group" aria-label="Basic radio toggle button group">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+      <label class="btn btn-outline-primary category_item" for="btnradio1" category="all">Todo</label>
+    
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" >
+      <label class="btn btn-outline-primary category_item" for="btnradio2" category="Apple">Apple</label>
+    
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+      <label class="btn btn-outline-primary category_item" for="btnradio3" category="Samsung">Samsung</label>
 
-            <ol class="posts">
-              <li class="post" data-category="Accesorios Apple">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+      <label class="btn btn-outline-primary category_item" for="btnradio4" category="Notebook">Notebook</label>
+    
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+      <label class="btn btn-outline-primary category_item " for="btnradio5" category="Xioami">Xioami</label>
+    </div>
+    
+    <main>
+                 
 
-                <a href="" target="_blank" class="align-items-center">
-                  <img  class="product-img" src="../images/applew.jpg" alt="">
-                </a>
-                <h2 class="post-title">
-                  <a href="" target="_blank">Apple Watch</a>
-                </h2>
+      <div class="container">      
+  
+        <br><br>
+        <div class="row" id="card"></div>
+        <div id="cards" class="listadoProducto row"></div> 
+      </div>
+       
 
-                <div class="d-flex flex-row">
-                  <button
-                    type="button"
-                    class="btn btn-primary flex-fill me-1"
-                    data-mdb-ripple-color="dark"
-                  >
-                    Agregar al carrito
-                  </button>
+  
+</main>    
 
 
-              </li>
-              <li class="post" data-category="Accesorios Samsung" >
-
-                <a href="" target="_blank">
-                  <img class="product-img" src="../images/Auriculars samsung.jpg" alt="">
-                </a>
-                <h2 class="post-title">
-                  
-                  <a href="" target="_blank">Auriculares Samsung</a>
-                  
-                </h2> 
-                <div class="d-flex flex-row">
-                  <button
-                    type="button"
-                    class="btn btn-primary flex-fill me-1"
-                    data-mdb-ripple-color="dark"
-                  >
-                    Agregar al carrito
-                  </button>
-                
-                          </li>
-              <li class="post" data-category="Apple Celulares">
-                
-                <a href="" target="_blank">
-                  <img class="product-img" src="../images/iphone13.jpg" alt="">
-                </a>
-                <h2 class="post-title">
-                  <a href="" target="_blank">iPhone 13</a>
-                </h2> 
-                <div class="d-flex flex-row">
-                  <button
-                    type="button"
-                    class="btn btn-primary flex-fill me-1"
-                    data-mdb-ripple-color="dark"
-                  >
-                    Agregar al carrito
-                  </button>
-
-              </li>
-              <li class="post" data-category="Apple Notebooks">
-                
-                <a href="" target="_blank">
-                  <img class="product-img" src="../images/macbook.jpg" alt="">
-                </a>
-                <h2 class="post-title">
-                  <a href="" target="_blank">Macbook</a>
-                </h2> 
-                <div class="d-flex flex-row">
-                  <button
-                    type="button"
-                    class="btn btn-primary flex-fill me-1"
-                    data-mdb-ripple-color="dark"
-                  >
-                    Agregar al carrito
-                  </button>
-              </li>
-              <li class="post" data-category="Notebooks">
-                
-                <a href="" target="_blank">
-                  <img class="product-img" src="../images/msi.jpg" alt="">
-                </a>
-                <h2 class="post-title">
-                  <a href="" target="_blank">Notebook</a>
-                </h2> 
-                <div class="d-flex flex-row">
-                  <button
-                    type="button"
-                    class="btn btn-primary flex-fill me-1"
-                    data-mdb-ripple-color="dark"
-                  >
-                    Agregar al carrito
-                  </button>
-              </li>
-              <li class="post" data-category="Celulares Xiaomi">
-                
-                <a href="" target="_blank">
-                  <img class="product-img" src="../images/redmi note 11.jpg" alt="">
-                </a>
-                <h2 class="post-title">
-                  <a href="" target="_blank">Redmi Note 11</a>
-                </h2> 
-                <div class="d-flex flex-row">
-                  <button
-                    type="button"
-                    class="btn btn-primary flex-fill me-1"
-                    data-mdb-ripple-color="dark"
-                  >
-                    Agregar al carrito
-                  </button>
-              </li>
-              <li class="post" data-category="Celulares Samsung">
-                
-                <a href="" target="_blank">
-                  <img class="product-img" class="product-img" src="../images/samsung.jpg" alt="">
-                </a>
-                <h2 class="post-title">
-                  <a href="" target="_blank">Samsung</a>
-                </h2> 
-                
-                <div class="d-flex flex-row">
-                  <button
-                    type="button"
-                    class="btn btn-primary flex-fill me-1"
-                    data-mdb-ripple-color="dark"
-                  >
-                    Agregar al carrito
-                  </button>
-              </li>
-              <li class="post" data-category="Accesorios Xiaomi">
-                
-                <a href="" target="_blank">
-                  <img class="product-img" src="../images/Xiaomi band.jpg" alt="">
-                </a>
-                <h2 class="post-title">
-                  
-                  <a href="" target="_blank">Xiaomi Band</a>
-                </h2> 
-                <div class="d-flex flex-row">
-                  <button
-                    type="button"
-                    class="btn btn-primary flex-fill me-1"
-                    data-mdb-ripple-color="dark"
-                  >
-                    Agregar al carrito
-                  </button>
-              </li>
-            </ol>
+            
 
 
  
@@ -287,11 +160,17 @@
     </footer>
 
     <!-- Bootstrap JS -->
-    <script src="./js/index.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+
+    <script src="../js/script.js"></script>
+
+    <script src="../js/prueba1.js"></script>
+
   </body>
 </html>
