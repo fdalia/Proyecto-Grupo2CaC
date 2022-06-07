@@ -21,7 +21,7 @@ items.addEventListener('click', e => { btnAumentarDisminuir(e) })
 items.addEventListener('click', e => { borrarproducto(e) })
 
 const setCarrito = item => {
-    console.log("setcarrito")
+    // console.log("setcarrito")
     const producto = {
         title: item.querySelector('h5').textContent,
         precio: item.querySelector('p').textContent,
@@ -119,7 +119,6 @@ const btnAumentarDisminuir = e => {
 }
 
 //boton borrar un producto 
-
         const borrarproducto = (e) => {         
 
             if (e.target.classList.contains('btn-danger1')   ) {
@@ -133,4 +132,4 @@ const btnAumentarDisminuir = e => {
             e.stopPropagation();
             
           }
-        
+

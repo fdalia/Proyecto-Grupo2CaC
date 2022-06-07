@@ -47,7 +47,7 @@ const pintarCards = data => {
             <h4>${item.title}</h4>
             <p>Precio: $ <span>${item.precio}</span></p>
             <h6>Cuotas: ${item.cuotas}</h6>
-            <h8>Dessssssscripcion: ${item.descripcion}</h8>
+            <h8>Descripcion: ${item.descripcion}</h8>
             <br><br>
 
             <button  onclick="snack1()" class="btn btn-dark" data-id="${item.id}">Agregar al carrito</button>

@@ -2,9 +2,17 @@ const efectivoRapipago = document.getElementById("inlineRadio1");
 const transferencia = document.getElementById("inlineRadio2");
 const tarjeta = document.getElementById("inlineRadio3");
 const cripto = document.getElementById("inlineRadio4");
+const monto = document.querySelector('h5 span')
 
 const parrafoPago = document.getElementById("info-pago");
 
+document.addEventListener('DOMContentLoaded', () => {    
+    
+  carrito = JSON.parse(localStorage.getItem('carrito'))
+
+  montoPagar()
+  
+});
 
 efectivoRapipago.addEventListener("click", () => {
     parrafoPago.innerHTML = pagoRapipago;
@@ -73,3 +81,12 @@ function soloNumeros(e){
 	var key = window.Event ? e.which : e.keyCode
 	return (key >= 48 && key <= 57)
 }
+
+// monto a pagar
+function montoPagar(){
+
+    
+  const nPrecio = Object.values(carrito).reduce((acc, {cantidad, precio}) => acc + cantidad * precio ,0)
+  monto.innerHTML= nPrecio
+  console.log("monto")
+  }
